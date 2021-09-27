@@ -14,12 +14,9 @@ public class LoginPage extends LoginUI{
 	public static void loginpage(WebDriver driver,String name,String password) throws IOException
 	{
 	
-		  //ReusableMethods.popupclose(driver);
-	     // ReusableMethods.action(movetologin, driver);
-		// ReusableMethods.actionclick(clicklogin, driver);
 		
 		ReusableMethods.click(log_in, driver);
-		ReusableMethods.click(username, driver);
+		//ReusableMethods.click(username, driver);
 	    ReusableMethods.login(username, driver,name);
 		ReusableMethods.click(pass, driver);
 		ReusableMethods.login(pass, driver,password);

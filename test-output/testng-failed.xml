@@ -5,9 +5,10 @@
     <classes>
       <class name="com.urbanladder.runner.TestRunner">
         <methods>
+          <include name="StoreVerification"/>
           <include name="closebrowser"/>
           <include name="openbrowser"/>
-          <include name="Search_products"/>
+          <include name="GoogleVerification"/>
         </methods>
       </class> <!-- com.urbanladder.runner.TestRunner -->
     </classes>

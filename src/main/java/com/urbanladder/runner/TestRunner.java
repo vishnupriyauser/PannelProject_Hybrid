@@ -4,7 +4,10 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -23,6 +26,7 @@ import com.urbanladder.pageObjects.Store_Verification;
 import com.urbanladder.pageObjects.Verify_EMI_Page;
 import com.urbanladder.pageObjects.WishlistVerification;
 import com.urbanladder.reusableComponents.ReusableDrivers;
+import com.urbanladder.reusableComponents.ReusableMethods;
 import com.urbanladder.utilities.DataDriven;
 import com.urbanladder.utilities.PropertyFileReader;
 public class TestRunner extends ReusableDrivers{
@@ -36,7 +40,8 @@ public class TestRunner extends ReusableDrivers{
 		{
 		ReusableDrivers.initializedriver();
 		driver.get(PropertyFileReader.loadFile().getProperty("url"));
-		
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a[data-gaaction='popup.auth.close']")));
     	LoginPage.loginpage(driver,PropertyFileReader.loadFile().getProperty("username"), PropertyFileReader.loadFile().getProperty("password")); 
     	log.info("successfull logged in");
 		}

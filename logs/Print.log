@@ -1,6 +1,3 @@
-08:56:40.185 [main] INFO  com.urbanladder.runner.TestRunner - successfull logged in
-08:57:03.718 [main] ERROR com.urbanladder.runner.TestRunner - error while adding cart
-08:57:11.624 [main] INFO  com.urbanladder.reusableComponents.ReusableDrivers - chrome driver invoked successfully
-12:18:39.622 [main] INFO  com.urbanladder.reusableComponents.ReusableDrivers - chrome driver invoked successfully
-12:19:02.800 [main] INFO  com.urbanladder.runner.TestRunner - successfull logged in
-12:19:16.119 [main] INFO  com.urbanladder.runner.TestRunner - EMI verified successfull
+14:42:55.572 [main] INFO  com.urbanladder.runner.TestRunner - successfull logged in
+14:43:58.955 [main] INFO  com.urbanladder.reusableComponents.ReusableDrivers - chrome driver invoked successfully
+14:45:17.641 [main] INFO  com.urbanladder.runner.TestRunner - author verified successfull
