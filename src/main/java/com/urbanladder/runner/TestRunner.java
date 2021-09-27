@@ -51,7 +51,7 @@ public class TestRunner extends ReusableDrivers{
     	}
 	}
 
-@Test(priority=0)
+    @Test(priority=1)
 	public void count() throws IOException
 	{	
 		
@@ -94,7 +94,7 @@ public class TestRunner extends ReusableDrivers{
      	}
    	} 	 
 	 
-	@Test(priority=1)
+	@Test(priority=0)
 	public void EMIverification() throws IOException
 	{	
 
