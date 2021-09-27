@@ -1,0 +1,3 @@
+08:56:40.185 [main] INFO  com.urbanladder.runner.TestRunner - successfull logged in
+08:57:03.718 [main] ERROR com.urbanladder.runner.TestRunner - error while adding cart
+08:57:11.624 [main] INFO  com.urbanladder.reusableComponents.ReusableDrivers - chrome driver invoked successfully

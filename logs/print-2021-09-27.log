@@ -1,0 +1,6 @@
+08:30:17.508 [main] INFO  com.urbanladder.runner.TestRunner - successfull logged in
+08:30:21.407 [main] INFO  com.urbanladder.runner.TestRunner - product searched successfull
+08:54:54.817 [main] INFO  com.urbanladder.reusableComponents.ReusableDrivers - chrome driver invoked successfully
+08:56:04.877 [main] INFO  com.urbanladder.runner.TestRunner - successfull logged in
+08:56:15.457 [main] INFO  com.urbanladder.runner.TestRunner - number of products in a page passed
+08:56:19.075 [main] INFO  com.urbanladder.reusableComponents.ReusableDrivers - chrome driver invoked successfully

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="471033" started-at="2021-09-26T05:54:04Z" finished-at="2021-09-26T06:01:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="471033" started-at="2021-09-26T05:54:04Z" finished-at="2021-09-26T06:01:55Z">
+      <class name="com.urbanladder.runner.TestRunner">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="22696" started-at="2021-09-26T11:24:04Z" finished-at="2021-09-26T11:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="count()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="count" duration-ms="3795" started-at="2021-09-26T11:24:26Z" finished-at="2021-09-26T11:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- count -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="18643" started-at="2021-09-26T11:24:30Z" finished-at="2021-09-26T11:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="addcart()[pri:1, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="addcart" duration-ms="9902" started-at="2021-09-26T11:24:49Z" finished-at="2021-09-26T11:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcart -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="18509" started-at="2021-09-26T11:24:59Z" finished-at="2021-09-26T11:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="EMIverification()[pri:2, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="EMIverification" duration-ms="7172" started-at="2021-09-26T11:25:17Z" finished-at="2021-09-26T11:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMIverification -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="19240" started-at="2021-09-26T11:25:24Z" finished-at="2021-09-26T11:25:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="StoreVerification()[pri:3, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="StoreVerification" duration-ms="8736" started-at="2021-09-26T11:25:44Z" finished-at="2021-09-26T11:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StoreVerification -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="20116" started-at="2021-09-26T11:25:54Z" finished-at="2021-09-26T11:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Search_products(java.lang.String)[pri:4, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="Search_products" duration-ms="3161" started-at="2021-09-26T11:26:14Z" data-provider="getdata" finished-at="2021-09-26T11:26:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_products -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="19899" started-at="2021-09-26T11:26:17Z" finished-at="2021-09-26T11:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Search_products(java.lang.String)[pri:4, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="Search_products" duration-ms="3558" started-at="2021-09-26T11:26:37Z" data-provider="getdata" finished-at="2021-09-26T11:26:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_products -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="18735" started-at="2021-09-26T11:26:40Z" finished-at="2021-09-26T11:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Search_products(java.lang.String)[pri:4, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="Search_products" duration-ms="6791" started-at="2021-09-26T11:26:59Z" data-provider="getdata" finished-at="2021-09-26T11:27:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sofa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_products -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="21894" started-at="2021-09-26T11:27:06Z" finished-at="2021-09-26T11:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Search_products(java.lang.String)[pri:4, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="Search_products" duration-ms="4046" started-at="2021-09-26T11:27:28Z" data-provider="getdata" finished-at="2021-09-26T11:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bookshelf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_products -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="24408" started-at="2021-09-26T11:27:32Z" finished-at="2021-09-26T11:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Search_products(java.lang.String)[pri:4, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="Search_products" duration-ms="20435" started-at="2021-09-26T11:27:56Z" data-provider="getdata" finished-at="2021-09-26T11:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dinning table]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_products -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="26266" started-at="2021-09-26T11:28:17Z" finished-at="2021-09-26T11:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="GoogleVerification()[pri:5, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="GoogleVerification" duration-ms="7568" started-at="2021-09-26T11:28:43Z" finished-at="2021-09-26T11:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleVerification -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="26590" started-at="2021-09-26T11:28:51Z" finished-at="2021-09-26T11:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="wishlistVerification()[pri:6, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="wishlistVerification" duration-ms="31380" started-at="2021-09-26T11:29:17Z" finished-at="2021-09-26T11:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistVerification -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="23701" started-at="2021-09-26T11:29:49Z" finished-at="2021-09-26T11:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="helpverification()[pri:7, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="helpverification" duration-ms="1538" started-at="2021-09-26T11:30:12Z" finished-at="2021-09-26T11:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpverification -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="23289" started-at="2021-09-26T11:30:14Z" finished-at="2021-09-26T11:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="compareproducts()[pri:8, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="compareproducts" duration-ms="31196" started-at="2021-09-26T11:30:37Z" finished-at="2021-09-26T11:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareproducts -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="openbrowser" is-config="true" duration-ms="23176" started-at="2021-09-26T11:31:08Z" finished-at="2021-09-26T11:31:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="author()[pri:9, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="author" duration-ms="22154" started-at="2021-09-26T11:31:31Z" finished-at="2021-09-26T11:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- author -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.urbanladder.runner.TestRunner@b9b00e0]" name="closebrowser" is-config="true" duration-ms="979" started-at="2021-09-26T11:31:54Z" finished-at="2021-09-26T11:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.urbanladder.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
