@@ -62,7 +62,7 @@ public class TestRunner extends ReusableDrivers{
     	}
 	}	
 	
-	 @Test(priority=1)
+	 @Test(priority=2)
 	  	public void addcart() throws IOException
    	{	
 	
@@ -89,7 +89,7 @@ public class TestRunner extends ReusableDrivers{
      	}
    	} 	 
 	 
-	@Test(priority=2)
+	@Test(priority=1)
 	public void EMIverification() throws IOException
 	{	
 
@@ -248,7 +248,9 @@ public class TestRunner extends ReusableDrivers{
      	}
 	}
 
+
 	
+
 	@AfterMethod
 	public void closebrowser()
 	{
